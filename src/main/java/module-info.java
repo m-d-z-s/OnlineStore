@@ -15,4 +15,11 @@ module com.example.onlinestore {
 
     opens me.mdzs.onlinestore to javafx.fxml;
     exports me.mdzs.onlinestore;
+
+    opens me.mdzs.onlinestore.utils to javafx.fxml;
+    exports me.mdzs.onlinestore.utils;
+
+    opens me.mdzs.onlinestore.domain to javafx.fxml;
+    exports me.mdzs.onlinestore.domain;
+
 }
