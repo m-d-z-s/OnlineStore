@@ -1,0 +1,4 @@
+# Online Store
+
+## Description
+This is a simple online store application. It adds products to the database and displays them on the main page.
